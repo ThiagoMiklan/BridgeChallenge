@@ -30,7 +30,7 @@ public class Controller {
       return historyFat;
     }
 
-     private Long fatorial(Long number){
+     public Long fatorial(Long number){
       Long size = number;
       Long n = number;
       Long mult = number;

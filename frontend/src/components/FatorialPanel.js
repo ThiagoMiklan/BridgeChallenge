@@ -2,13 +2,13 @@ import React,{useState,useEffect} from 'react';
 import {Button,Field,Columns,Column,Container,ButtonList,Table} from 'assemble-react-bulma';
 import {fetchResource} from '../services/fetchResource';
 
-const URL = process.env.REACT_APP_URL_SERVER;
+const URL = "http://localhost:8080";
 
 
 const FatorialPanel = ()=>{
     const[state,setState] = useState({resultado: 0,historico:[]});
     const[stateInput,setStateInput] = useState({data:0});
-    const[stateElement,setStateElement] = useState(<></>);
+    
 
     function onClickCalc(){
         if(stateInput.data != undefined){
