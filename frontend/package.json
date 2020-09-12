@@ -9,12 +9,7 @@
     "react": "^16.13.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --open",
-    "cmd": "babel-node",
-    "test": "jest ",
-    "build": "npm run build_babel && npm run build_flow",
-    "build_babel": "babel ./src -d ./lib",
-    "build_flow": "flow-copy-source ./src ./lib"
+    "start": "webpack-dev-server --open"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
