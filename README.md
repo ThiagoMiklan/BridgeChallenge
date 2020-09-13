@@ -40,8 +40,12 @@ Utilizei para construir a interface gráfica a minha biblioteca, que criei para 
 no Bulma que podem ser utilizados para montar interfaces dos mais diversos tipos, para isso utiliza de componentes gráficos simples e complexos disponibilizados via NPM.
 ## JUnit
 A biblioteca usada para criar os testes (os testes encontram-se em backend -> src -> tests -> FatorialTests.java). Utilizei pela primeira vez para fazer o trabalho, assim como o Spring Boot.
+## Docker
+Não consegui utilizar o Docker por uma limitação de equipamento. Eu nunca utilizei profissionalmente a tecnologia, mas já tentei utilizá-la diversas vezes no meu notebook e por ele ser muito ruim e velho, acabam ocorrendo problemas de memória RAM e nunca consigo utilizar o Docker decentemente.
+## Maven
+Usei uma vez com Java Desktop de uma maneira bem básica, sei que ele é uma espécie de package.json do Node, só que para Java, onde no pom.xml você informa uma lib presente no repositório maven ou no repositório local e então o maven automaticamente checa suas dependências e importa se necessário.
 # Sobre a implementação
 Optei pelo Spring Boot por usar Java e por ser aparentemente o meio mais tranquilo de integrar com o front end. Descobri como implementar um servidor Rest e então parti para o frond-end.
 
 No Front-end utilizei primeiramente o CRA para acelerar as coisas e ver se tudo ia funcionar, após estabilizado troquei para o webpack como inicializador da aplicação. Optei pelo front-end em Node por ter maior experiência e o uso do React e da minha biblioteca para facilitar a criação e organização da interface e também por gostar bastante da opção reativa fornecida pelo React
-
+Optei também por usar a separação entre front-end e back-end, simulando um cliente-servidor, ao invés de utilizar tudo em um jar apenas.
