@@ -4,14 +4,12 @@
 Clonar o repositório para alguma pasta de sua preferência, através do comando 'git clone https://github.com/ThiagoMiklan/BridgeChallenge.git' 
 ##  Lado servidor
 Após clonar o repositório, abra um prompt de comando no diretório backend
-Para executar o lado servidor da aplicação:
-- mvn spring-boot:run
-Para executar os testes do fatorial:
-- mvn test
+- Para executar o lado servidor da aplicação: mvn spring-boot:run
+- Para executar os testes do fatorial: mvn test
 ## Lado cliente
 Após clonar o repositório, abra um prompt de comando no diretório frontend
-1º instale os pacotes através de npm instale
-2º npm start  Para executar o front
+- 1ºinstale os pacotes através de npm install
+- 2º npm start  Para executar o front
 O start do front utiliza webpack-dev-server para ficar reiniciando conforme alteração no código.
 # Linguagens 
 As linguanges utilizadas ao todo foram JavaScript, HTML, CSS e Java
